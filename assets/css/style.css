@@ -27,7 +27,7 @@
     border-radius: 0px 60px 0px 0px;
 }
 
-.left-section-contents{
+.left-section-contents {
     padding: 2rem 2rem;
 }
 
@@ -46,7 +46,7 @@
     overflow: hidden;
 }
 
-.profile-image img{
+.profile-image img {
     width: 25rem;
     transform: translateX(3rem);
 }
@@ -91,6 +91,7 @@
 .skills ul {
     padding-top: 1.5rem;
 }
+
 .skills ul li p {
     padding: .4rem 0;
     color: #eeeeee;
@@ -107,7 +108,43 @@
 .gap {
     padding-bottom: 2rem;
 }
+
 .about-me-contents {
     font-size: 18px;
     color: #eeeeee;
+}
+
+.experience-contents,
+.education-contents,
+.awards-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+    color: #F1F8FD;
+}
+
+.exp-company-name,
+.education-school-name,
+.awards-company-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.exp-time-period,
+.educationp-time-period,
+.awards-time-period {
+    font-size: 18px;
+}
+
+.exp-position,
+.education-subject,
+.awards-name {
+    font-size: 25px;
+}
+
+.exp-desc,
+.education-desc,
+.awards-desc {
+    font-size: 16px;
+    padding-left: 5px;
 }
